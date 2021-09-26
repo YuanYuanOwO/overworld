@@ -18,7 +18,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -1,
                 "y": -3,
@@ -66,7 +66,7 @@
             "y": -1,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "STILT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -85,5 +85,5 @@
             "exponent": 1
         }
     },
-    "object": "village/desert/houses/desert_animal_pen_1"
+    "object": "jigsaw/village/desert/houses/desert_animal_pen_1"
 }

@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:entrance_base_connector",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -8,
                 "y": -16,
@@ -332,5 +332,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/bridge/starting_pieces/entrance"
+    "object": "jigsaw/bastion/bridge/starting_pieces/entrance"
 }

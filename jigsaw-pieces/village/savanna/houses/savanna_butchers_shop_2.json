@@ -18,7 +18,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -6,
                 "y": -4,
@@ -28,6 +28,17 @@
         }
     ],
     "placementOptions": {
+        "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:yellow_terracotta"},
+                {"block": "minecraft:orange_terracotta"},
+                {"block": "minecraft:acacia_planks"},
+                {"block": "minecraft:stripped_acacia_log"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -59,14 +70,14 @@
         "boreExtendMinY": -1,
         "smartBore": false,
         "waterloggable": false,
-        "bore": true,
+        "bore": false,
         "translate": {
             "yRandom": 0,
             "x": 0,
-            "y": -1,
+            "y": 2,
             "z": 0
         },
-        "mode": "FAST_MAX_HEIGHT",
+        "mode": "STILT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -85,5 +96,5 @@
             "exponent": 1
         }
     },
-    "object": "village/savanna/houses/savanna_butchers_shop_2"
+    "object": "jigsaw/village/savanna/houses/savanna_butchers_shop_2"
 }

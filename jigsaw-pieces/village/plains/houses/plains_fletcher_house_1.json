@@ -18,7 +18,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -4,
                 "y": -2,
@@ -28,6 +28,15 @@
         }
     ],
     "placementOptions": {
+        "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:grass_block"},
+                {"block": "minecraft:oak_planks"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -66,7 +75,7 @@
             "y": -1,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "STILT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -85,5 +94,5 @@
             "exponent": 1
         }
     },
-    "object": "village/plains/houses/plains_fletcher_house_1"
+    "object": "jigsaw/village/plains/houses/plains_fletcher_house_1"
 }

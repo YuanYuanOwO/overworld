@@ -44,7 +44,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -4,
                 "y": -2,
@@ -111,5 +111,5 @@
             "exponent": 1
         }
     },
-    "object": "village/plains/zombie/houses/plains_shepherds_house_1"
+    "object": "jigsaw/village/plains/zombie/houses/plains_shepherds_house_1"
 }

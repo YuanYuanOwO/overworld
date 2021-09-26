@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:bottom",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": 0,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "village/taiga/taiga_decoration_5"
+    "object": "jigsaw/village/taiga/taiga_decoration_5"
 }

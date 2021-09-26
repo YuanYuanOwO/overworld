@@ -31,7 +31,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:street",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -8,
                 "y": 0,
@@ -80,6 +80,15 @@
         }
     ],
     "placementOptions": {
+        "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:sand"},
+                {"block": "minecraft:sandstone"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -137,5 +146,5 @@
             "exponent": 1
         }
     },
-    "object": "village/desert/streets/square_02"
+    "object": "jigsaw/village/desert/streets/square_02"
 }

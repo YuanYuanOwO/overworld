@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:mob_connector",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": -1,
             "y": -1,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/mobs/hoglin"
+    "object": "jigsaw/bastion/mobs/hoglin"
 }

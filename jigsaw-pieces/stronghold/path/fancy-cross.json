@@ -133,7 +133,43 @@
         "meld": false,
         "density": 1,
         "boreExtendMinY": 0,
-        "edit": [],
+        "edit": [{
+            "chance": 0.3,
+            "find": [{
+                "debug": false,
+                "data": {},
+                "weight": 1,
+                "block": "minecraft:stone_bricks",
+                "key": "minecraft"
+            }],
+            "replace": {
+                "style": {
+                    "multiplier": 1,
+                    "style": "STATIC",
+                    "zoom": 1,
+                    "maxFractureAccuracy": false,
+                    "exponent": 1
+                },
+                "zoom": 5,
+                "palette": [
+                    {
+                        "debug": false,
+                        "data": {},
+                        "weight": 1,
+                        "block": "minecraft:mossy_stone_bricks",
+                        "key": "minecraft"
+                    },
+                    {
+                        "debug": false,
+                        "data": {},
+                        "weight": 1,
+                        "block": "minecraft:cracked_stone_bricks",
+                        "key": "minecraft"
+                    }
+                ]
+            },
+            "exact": false
+        }],
         "bottom": false,
         "translateCenter": false,
         "rotation": {
@@ -185,5 +221,5 @@
             "exponent": 1
         }
     },
-    "object": "stronghold/path/fancy-cross"
+    "object": "jigsaw/stronghold/path/fancy-cross"
 }

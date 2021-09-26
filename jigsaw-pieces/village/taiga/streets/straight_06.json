@@ -3,7 +3,6 @@
         {
             "targetName": "village/taiga/villagers/unemployed",
             "entityCount": 3,
-            "spawnEntity": "villager",
             "innerConnector": true,
             "rotateConnector": false,
             "name": "villager",
@@ -269,28 +268,16 @@
         "meld": false,
         "density": 1,
         "edit": [{
-                "find": [
-                    {
-                        "block": "grass_path"
-                    }
+            "find": [{"block": "minecraft:dirt_path"}],
+            "replace": {
+                "palette": [
+                    {"block": "minecraft:gravel"},
+                    {"block": "minecraft:cobblestone"},
+                    {"block": "minecraft:andesite"}
                 ],
-                "replace": {
-                    "palette": [
-                        {
-                            "block": "gravel"
-                        },
-                        {
-                            "block": "cobblestone"
-                        },
-                        {
-                            "block": "andesite"
-                        }
-                    ],
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }],
+                "style": {"style": "STATIC"}
+            }
+        }],
         "bottom": false,
         "translateCenter": false,
         "rotation": {
@@ -343,5 +330,5 @@
             "exponent": 1
         }
     },
-    "object": "village/taiga/streets/straight_06"
+    "object": "jigsaw/village/taiga/streets/straight_06"
 }

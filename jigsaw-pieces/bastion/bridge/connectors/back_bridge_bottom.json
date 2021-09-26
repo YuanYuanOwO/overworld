@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:back_bridge_connector_bottom",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": -4,
             "y": -2,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/bridge/connectors/back_bridge_bottom"
+    "object": "jigsaw/bastion/bridge/connectors/back_bridge_bottom"
 }

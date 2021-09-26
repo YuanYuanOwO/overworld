@@ -24,8 +24,6 @@
         "time": {},
         "write": {}
     },
-    "object": "stronghold/room/small-cell",
-    "placementOptions": {
-        "bore": true
-    }
+    "object": "jigsaw/stronghold/room/small-cell",
+    "placementOptions": {"bore": true}
 }

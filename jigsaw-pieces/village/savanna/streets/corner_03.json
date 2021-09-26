@@ -3,7 +3,6 @@
         {
             "targetName": "village/savanna/villagers/unemployed",
             "entityCount": 3,
-            "spawnEntity": "villager",
             "innerConnector": true,
             "rotateConnector": false,
             "name": "villager",
@@ -81,7 +80,7 @@
             "y": 0,
             "z": 0
         },
-        "mode": "FAST_MAX_HEIGHT",
+        "mode": "PAINT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -100,5 +99,5 @@
             "exponent": 1
         }
     },
-    "object": "village/savanna/streets/corner_03"
+    "object": "jigsaw/village/savanna/streets/corner_03"
 }

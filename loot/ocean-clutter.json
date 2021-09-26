@@ -1,41 +1,41 @@
 {
     "name": "Ocean Clutter",
-    "rarity": 3,
+    "rarity": 1,
+    "maxPicked": 2,
+    "minPicked": 1,
     "loot": [
         {
             "type": "wet_sponge",
             "maxAmount": 5,
-            "rarity": 4,
             "slotTypes": "STORAGE"
         },
         {
             "type": "sponge",
             "maxAmount": 2,
-            "rarity": 5,
             "slotTypes": "STORAGE"
         },
         {
             "type": "kelp",
             "maxAmount": 27,
-            "rarity": 2,
             "slotTypes": "STORAGE"
         },
         {
             "type": "fishing_rod",
             "maxAmount": 1,
-            "rarity": 11,
+            "enchantments": [{
+                "enchantment": "DURABILITY",
+                "maxLevel": 2
+            }],
             "slotTypes": "STORAGE"
         },
         {
             "type": "pufferfish",
             "maxAmount": 2,
-            "rarity": 5,
             "slotTypes": "STORAGE"
         },
         {
             "type": "turtle_helmet",
             "maxAmount": 1,
-            "rarity": 36,
             "enchantments": [
                 {
                     "enchantment": "OXYGEN",
@@ -102,16 +102,14 @@
         {
             "type": "trident",
             "maxAmount": 1,
-            "rarity": 36,
+            "rarity": 5,
             "enchantments": [
                 {
                     "enchantment": "CHANNELING",
                     "maxLevel": 3,
                     "chance": 0.75
                 },
-                {
-                    "enchantment": "LOYALTY"
-                },
+                {"enchantment": "LOYALTY"},
                 {
                     "enchantment": "WATER_WORKER",
                     "minLevel": 3,
@@ -141,15 +139,13 @@
                 "HIDE_POTION_EFFECTS",
                 "HIDE_ATTRIBUTES"
             ],
-            "attributes": [
-                {
-                    "attribute": "GENERIC_ATTACK_DAMAGE",
-                    "operation": "ADD_NUMBER",
-                    "maxAmount": 5,
-                    "minAmount": 3,
-                    "name": "AT1"
-                }
-            ],
+            "attributes": [{
+                "attribute": "GENERIC_ATTACK_DAMAGE",
+                "operation": "ADD_NUMBER",
+                "maxAmount": 5,
+                "minAmount": 3,
+                "name": "AT1"
+            }],
             "minDurability": 0.9,
             "maxDurability": 0.95,
             "slotTypes": "STORAGE"

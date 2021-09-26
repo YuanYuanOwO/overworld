@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:ground_pathway_entrance_wall",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 0,
                 "y": 0,
@@ -85,5 +85,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/units/pathways/pathway_wall_0"
+    "object": "jigsaw/bastion/units/pathways/pathway_wall_0"
 }

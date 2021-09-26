@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:center_brain",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -1,
                 "y": -17,
@@ -189,5 +189,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/treasure/brains/center_brain"
+    "object": "jigsaw/bastion/treasure/brains/center_brain"
 }

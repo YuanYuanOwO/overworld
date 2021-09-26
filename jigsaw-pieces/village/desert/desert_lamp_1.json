@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:bottom",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -2,
@@ -51,7 +51,7 @@
             "y": -1,
             "z": 0
         },
-        "mode": "FAST_MAX_HEIGHT",
+        "mode": "FAST_MIN_HEIGHT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "village/desert/desert_lamp_1"
+    "object": "jigsaw/village/desert/desert_lamp_1"
 }

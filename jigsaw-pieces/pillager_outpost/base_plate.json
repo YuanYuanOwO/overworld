@@ -71,7 +71,18 @@
             "direction": "NORTH_NEGATIVE_Z"
         }
     ],
-    "placementOptions": {
+    "placementOptions": {"markers": [
+      {
+        "emptyAbove": true,
+        "maximumMarkers": 1,
+        "mark": [
+          {
+            "block": "minecraft:birch_planks"
+          }
+        ],
+        "marker": "pillager"
+      }
+    ],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -108,7 +119,7 @@
         "translate": {
             "yRandom": 0,
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0
         },
         "mode": "FAST_MAX_HEIGHT",
@@ -129,5 +140,5 @@
             "exponent": 1
         }
     },
-    "object": "pillager_outpost/base_plate"
+    "object": "jigsaw/pillager_outpost/base_plate"
 }

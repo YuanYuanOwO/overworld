@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:wall_base_connector_right",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -8,
                 "y": -12,
@@ -111,5 +111,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/bridge/walls/wall_base_0"
+    "object": "jigsaw/bastion/bridge/walls/wall_base_0"
 }

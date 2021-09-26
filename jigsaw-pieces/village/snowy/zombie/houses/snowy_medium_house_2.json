@@ -18,7 +18,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 0,
                 "y": -4,
@@ -98,5 +98,5 @@
             "exponent": 1
         }
     },
-    "object": "village/snowy/zombie/houses/snowy_medium_house_2"
+    "object": "jigsaw/village/snowy/zombie/houses/snowy_medium_house_2"
 }

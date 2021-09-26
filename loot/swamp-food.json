@@ -1,23 +1,32 @@
 {
     "name": "Swamp Food",
-    "rarity": 2,
+    "rarity": 1,
+    "maxPicked": 2,
+    "minPicked": 1,
     "loot": [
         {
             "type": "spider_eye",
             "maxAmount": 3,
-            "rarity": 6,
             "slotTypes": "STORAGE"
         },
         {
             "type": "carrot",
             "maxAmount": 7,
-            "rarity": 3,
             "slotTypes": "STORAGE"
         },
         {
             "type": "beetroot",
             "maxAmount": 5,
-            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "poisonous_potato",
+            "maxAmount": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "pumpkin_pie",
+            "maxAmount": 1,
             "slotTypes": "STORAGE"
         }
     ]

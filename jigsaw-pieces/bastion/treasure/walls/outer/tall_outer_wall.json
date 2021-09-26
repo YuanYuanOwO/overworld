@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:tall_outer_wall_connector",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -8,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/treasure/walls/outer/tall_outer_wall"
+    "object": "jigsaw/bastion/treasure/walls/outer/tall_outer_wall"
 }

@@ -5,7 +5,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 0,
                 "y": -2,
@@ -28,6 +28,17 @@
         }
     ],
     "placementOptions": {
+         "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:grass_block"},
+                {"block": "minecraft:stripped_spruce_log"},
+                {"block": "minecraft:spruce_planks"},
+                {"block": "minecraft:cobblestone"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -66,7 +77,7 @@
             "y": -1,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "STILT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -85,5 +96,5 @@
             "exponent": 1
         }
     },
-    "object": "village/taiga/houses/taiga_small_farm_1"
+    "object": "jigsaw/village/taiga/houses/taiga_small_farm_1"
 }

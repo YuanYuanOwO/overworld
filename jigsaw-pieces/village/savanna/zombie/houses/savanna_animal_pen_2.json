@@ -44,7 +44,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:bottom",
-            "pools": ["village/savanna/zombie/decor"],
+            "pools": ["village/savanna/villagezombie/decor"],
             "position": {
                 "x": 1,
                 "y": -2,
@@ -70,7 +70,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -2,
                 "y": -1,
@@ -137,5 +137,5 @@
             "exponent": 1
         }
     },
-    "object": "village/savanna/zombie/houses/savanna_animal_pen_2"
+    "object": "jigsaw/village/savanna/villagezombie/houses/savanna_animal_pen_2"
 }

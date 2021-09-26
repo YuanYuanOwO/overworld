@@ -1,42 +1,47 @@
 {
     "name": "Cold Treasure",
     "rarity": 1,
-    "minPicked": 0,
+    "maxPicked": 2,
+    "minPicked": 1,
     "loot": [
         {
             "type": "iron_nugget",
-            "maxAmount": 12,
-            "rarity": 3,
+            "maxAmount": 4,
+            "minAmount": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "tinted_glass",
+            "maxAmount": 4,
+            "minAmount": 2,
             "slotTypes": "STORAGE"
         },
         {
             "type": "iron_ingot",
             "maxAmount": 5,
-            "rarity": 4,
             "slotTypes": "STORAGE"
         },
         {
             "type": "emerald",
-            "maxamount": 5,
-            "rarity": 6,
+            "maxamount": 2,
             "slottypes": "STORAGE"
         },
         {
             "type": "emerald_block",
-            "maxamount": 2,
-            "rarity": 14,
+            "maxamount": 1,
+            "rarity": 10,
             "slottypes": "STORAGE"
         },
         {
             "type": "iron_block",
             "maxamount": 3,
-            "rarity": 11,
+            "rarity": 10,
             "slottypes": "STORAGE"
         },
         {
             "type": "leather_leggings",
             "maxAmount": 1,
-            "rarity": 97,
+            "rarity": 10,
             "minDurability": 0.93,
             "maxDurability": 1,
             "displayName": "Lucky Pyro Pants",
@@ -67,6 +72,13 @@
                 },
                 {
                     "attribute": "GENERIC_ARMOR",
+                    "operation": "ADD_NUMBER",
+                    "maxAmount": 4,
+                    "minAmount": 2,
+                    "name": "RRM"
+                },
+                {
+                    "attribute": "GENERIC_MAX_HEALTH",
                     "operation": "ADD_NUMBER",
                     "maxAmount": 4,
                     "minAmount": 2,

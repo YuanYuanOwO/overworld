@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:bottom",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -2,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "village/snowy/snowy_lamp_post_03"
+    "object": "jigsaw/village/snowy/snowy_lamp_post_03"
 }

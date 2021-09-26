@@ -3,7 +3,6 @@
         {
             "targetName": "village/plains/villagers/unemployed",
             "entityCount": 3,
-            "spawnEntity": "villager",
             "innerConnector": true,
             "rotateConnector": false,
             "name": "villager",
@@ -152,5 +151,5 @@
             "exponent": 1
         }
     },
-    "object": "village/plains/streets/straight_05"
+    "object": "jigsaw/village/plains/streets/straight_05"
 }

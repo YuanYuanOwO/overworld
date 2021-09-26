@@ -31,7 +31,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:rampart_mid_side_wall_connector",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 8,
                 "y": -15,
@@ -176,5 +176,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/treasure/ramparts/mid_wall_side"
+    "object": "jigsaw/bastion/treasure/ramparts/mid_wall_side"
 }

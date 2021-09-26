@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:stairs_mirrored",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -7,
                 "y": -3,
@@ -111,5 +111,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/hoglin_stable/starting_pieces/stairs_4_mirrored"
+    "object": "jigsaw/bastion/hoglin_stable/starting_pieces/stairs_4_mirrored"
 }

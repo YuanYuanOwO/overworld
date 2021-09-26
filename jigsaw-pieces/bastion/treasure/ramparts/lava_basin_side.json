@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:lava_basin_connector_main",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -9,
                 "y": 11,
@@ -85,5 +85,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/treasure/ramparts/lava_basin_side"
+    "object": "jigsaw/bastion/treasure/ramparts/lava_basin_side"
 }

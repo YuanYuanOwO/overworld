@@ -18,7 +18,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:plate_entry",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 7,
                 "y": -2,
@@ -27,7 +27,18 @@
             "direction": "EAST_POSITIVE_X"
         }
     ],
-    "placementOptions": {
+    "placementOptions": {"markers": [
+      {
+        "emptyAbove": true,
+        "maximumMarkers": 1,
+        "mark": [
+          {
+            "block": "minecraft:birch_planks"
+          }
+        ],
+        "marker": "pillager"
+      }
+    ],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -66,7 +77,7 @@
             "y": -1,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "FAST_MIN_HEIGHT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -85,5 +96,5 @@
             "exponent": 1
         }
     },
-    "object": "pillager_outpost/feature_plate"
+    "object": "jigsaw/pillager_outpost/feature_plate"
 }

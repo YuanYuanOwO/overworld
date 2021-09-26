@@ -262,6 +262,15 @@
         }
     ],
     "placementOptions": {
+        "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:sand"},
+                {"block": "minecraft:sandstone"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -319,5 +328,5 @@
             "exponent": 1
         }
     },
-    "object": "village/desert/streets/square_01"
+    "object": "jigsaw/village/desert/streets/square_01"
 }

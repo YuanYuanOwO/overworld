@@ -10,7 +10,7 @@
             "position": {
                 "x": -3,
                 "y": -9,
-                "z": -6
+                "z": -7
             },
             "direction": "NORTH_NEGATIVE_Z"
         },
@@ -24,7 +24,7 @@
             "position": {
                 "x": 3,
                 "y": -9,
-                "z": -6
+                "z": -7
             },
             "direction": "NORTH_NEGATIVE_Z"
         },
@@ -36,7 +36,7 @@
             "name": "",
             "pools": ["pillager_outpost/features"],
             "position": {
-                "x": 6,
+                "x": 7,
                 "y": -9,
                 "z": -3
             },
@@ -50,7 +50,7 @@
             "name": "",
             "pools": ["pillager_outpost/features"],
             "position": {
-                "x": 6,
+                "x": 7,
                 "y": -9,
                 "z": 3
             },
@@ -66,7 +66,7 @@
             "position": {
                 "x": 3,
                 "y": -9,
-                "z": 6
+                "z": 7
             },
             "direction": "SOUTH_POSITIVE_Z"
         },
@@ -80,7 +80,7 @@
             "position": {
                 "x": -3,
                 "y": -9,
-                "z": 6
+                "z": 7
             },
             "direction": "SOUTH_POSITIVE_Z"
         },
@@ -92,7 +92,7 @@
             "name": "",
             "pools": ["pillager_outpost/features"],
             "position": {
-                "x": -6,
+                "x": -7,
                 "y": -9,
                 "z": 3
             },
@@ -106,7 +106,7 @@
             "name": "",
             "pools": ["pillager_outpost/features"],
             "position": {
-                "x": -6,
+                "x": -7,
                 "y": -9,
                 "z": -3
             },
@@ -115,7 +115,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -130,7 +129,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -145,7 +143,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -160,7 +157,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -175,7 +171,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -190,7 +185,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -205,7 +199,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -220,7 +213,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -235,7 +227,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -250,7 +241,6 @@
         {
             "targetName": "pillager_outpost/pillager",
             "innerConnector": true,
-            "spawnEntity": "pillager",
             "entityCount": 1,
             "rotateConnector": false,
             "name": "",
@@ -263,7 +253,18 @@
             "direction": "UP_POSITIVE_Y"
         }
     ],
-    "placementOptions": {
+    "placementOptions": {"markers": [
+      {
+        "emptyAbove": true,
+        "maximumMarkers": 3,
+        "mark": [
+          {
+            "block": "minecraft:birch_planks"
+          }
+        ],
+        "marker": "pillager"
+      }
+    ],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -296,14 +297,14 @@
         "boreExtendMaxY": 0,
         "smartBore": false,
         "waterloggable": false,
-        "bore": true,
+        "bore": false,
         "translate": {
             "yRandom": 0,
             "x": 0,
-            "y": 0,
+            "y": -1,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "FAST_MIN_HEIGHT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -321,5 +322,5 @@
             "exponent": 1
         }
     },
-    "object": "pillager_outpost/watchtower"
+    "object": "jigsaw/pillager_outpost/watchtower"
 }

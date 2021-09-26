@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:empty",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -6,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "ruined_portal/portal_2"
+    "object": "jigsaw/structures/portal2"
 }

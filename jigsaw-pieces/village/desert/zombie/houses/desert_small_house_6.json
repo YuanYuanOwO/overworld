@@ -18,7 +18,7 @@
             "innerConnector": true,
             "rotateConnector": false,
             "name": "minecraft:building_entrance",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": -2,
                 "y": -7,
@@ -85,5 +85,5 @@
             "exponent": 1
         }
     },
-    "object": "village/desert/zombie/houses/desert_small_house_6"
+    "object": "jigsaw/village/desert/zombie/houses/desert_small_house_6"
 }

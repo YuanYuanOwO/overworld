@@ -4,7 +4,7 @@
         "innerConnector": true,
         "rotateConnector": false,
         "name": "minecraft:building_entrance",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": -3,
             "y": -2,
@@ -13,6 +13,17 @@
         "direction": "WEST_NEGATIVE_X"
     }],
     "placementOptions": {
+         "markers": [{
+            "emptyAbove": true,
+            "maximumMarkers": 1,
+            "mark": [
+                {"block": "minecraft:grass_block"},
+                {"block": "minecraft:stripped_spruce_log"},
+                {"block": "minecraft:spruce_planks"},
+                {"block": "minecraft:cobblestone"}
+            ],
+            "marker": "villager"
+        }],
         "overStilt": 0,
         "chance": 1,
         "meld": false,
@@ -51,7 +62,7 @@
             "y": 0,
             "z": 0
         },
-        "mode": "VACUUM",
+        "mode": "STILT",
         "carvingSupport": "SURFACE_ONLY",
         "snow": 0,
         "underwater": false,
@@ -70,5 +81,5 @@
             "exponent": 1
         }
     },
-    "object": "village/taiga/houses/taiga_masons_house_1"
+    "object": "jigsaw/village/taiga/houses/taiga_masons_house_1"
 }

@@ -3,7 +3,6 @@
         {
             "targetName": "village/snowy/villagers/unemployed",
             "entityCount": 3,
-            "spawnEntity": "villager",
             "innerConnector": true,
             "rotateConnector": false,
             "name": "villager",
@@ -165,5 +164,5 @@
             "exponent": 1
         }
     },
-    "object": "village/snowy/streets/straight_01"
+    "object": "jigsaw/village/snowy/streets/straight_01"
 }

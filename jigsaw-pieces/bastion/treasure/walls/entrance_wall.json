@@ -5,7 +5,7 @@
             "innerConnector": false,
             "rotateConnector": false,
             "name": "minecraft:entrance_wall_connector",
-            "pools": ["empty"],
+            "pools": [],
             "position": {
                 "x": 0,
                 "y": -8,
@@ -85,5 +85,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/treasure/walls/entrance_wall"
+    "object": "jigsaw/bastion/treasure/walls/entrance_wall"
 }

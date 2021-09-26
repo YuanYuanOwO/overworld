@@ -4,7 +4,7 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:melee_connector",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -1,
@@ -70,5 +70,5 @@
             "exponent": 1
         }
     },
-    "object": "bastion/mobs/melee_piglin_always"
+    "object": "jigsaw/bastion/mobs/melee_piglin_always"
 }

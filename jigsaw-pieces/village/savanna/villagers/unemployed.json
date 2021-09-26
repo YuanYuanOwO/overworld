@@ -4,13 +4,12 @@
         "innerConnector": false,
         "rotateConnector": false,
         "name": "minecraft:bottom",
-        "pools": ["empty"],
+        "pools": [],
         "position": {
             "x": 0,
             "y": -1,
             "z": 0
         },
-        "spawnEntity": "villager",
         "entityPosition": {
             "x": 0,
             "y": 2,
@@ -76,5 +75,5 @@
             "exponent": 1
         }
     },
-    "object": "village/savanna/villagers/unemployed"
+    "object": "jigsaw/village/savanna/villagers/unemployed"
 }

@@ -6,7 +6,8 @@
             "rotateConnector": false,
             "name": "",
             "pools": [
-                "stronghold/paths"
+                "stronghold/paths",
+                "stronghold/doors"
             ],
             "position": {
                 "x": 0,
@@ -21,7 +22,8 @@
             "rotateConnector": false,
             "name": "",
             "pools": [
-                "stronghold/paths"
+                "stronghold/paths",
+                "stronghold/doors"
             ],
             "position": {
                 "x": 0,
@@ -43,9 +45,6 @@
         "time": {},
         "write": {}
     },
-    "object": "stronghold/path/straight-staircase",
-    "placementOptions": {
-        "bore": true
-    }
-
+    "object": "jigsaw/stronghold/path/straight-staircase",
+    "placementOptions": {"bore": true}
 }
